@@ -1,0 +1,7 @@
+<h3>Update Member Details</h3>
+<%= form_with model: @member do |form| %>
+  <%= form.text_field :name, placeholder: "name" %>
+  <%= form.text_field :bio, placeholder: "bio" %>
+  <%= form.text_field :role, placeholder: "role" %>
+  <%= form.submit %>
+<% end %>
